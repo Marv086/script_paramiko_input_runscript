@@ -69,7 +69,7 @@ def main():
     
     # Prompt user for MongoDB details
     mongo_user = input("Ingrese el usuario de MongoDB: ")
-    mongo_password = input("Ingrese la contraseña de MongoDB: ")
+    mongo_password = getpass("Ingrese la contraseña de MongoDB: ")
     cluster = input("Ingrese el cluster: ")
     db_name = input("Ingrese el nombre de la base de datos: ")
     collection_name = input("Ingrese el nombre de la colección: ")
